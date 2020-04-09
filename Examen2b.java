@@ -59,9 +59,9 @@ public class Examen2b {
     }
     static boolean isProductSorted(Producto productos[]){
         if(productos != null){
-            double pastPrice = productos[0].getExistencias();
+            double pastExistence = productos[0].getExistencias();
             for(int i = 1; i<productos.length;i++){
-                if(pastPrice > productos[i].getExistencias()){
+                if(pastExistence > productos[i].getExistencias()){
                     return false;
                 }
             }
