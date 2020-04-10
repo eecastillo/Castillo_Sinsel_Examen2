@@ -45,20 +45,20 @@ public class Examen2e {
 	}
 	
 	public static void main(String[] args) {
-		int[] A = { 3, 5, 7, 8, 9, 10, 0, 0, 0, 0, 0 };
+		/*int[] A = { 3, 5, 7, 8, 9, 10, 0, 0, 0, 0, 0 };
 		int[] B = { 1, 2, 4, 5, 6 };
 		merge(A, B, 6);	
 		System.out.println(Arrays.toString(A));
-		System.out.println(isSorted(A));
+		System.out.println(isSorted(A));*/
 		
-		/*for(int n = 100_000; n<=500_000; n+=100_000){
+		for(int n = 100_000; n<=500_000; n+=100_000){
             int A[] = randomArray(n, 0, n);
             int B[] = randomArray(n/2,0,n);
             Arrays.sort(A);
             Arrays.sort(B);
             merge(A,B,n/2);
             System.out.println(isSorted(A));
-        }*/
+        }
 
 	}
 
